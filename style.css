@@ -1,0 +1,43 @@
+
+#main {
+	display: flex; 
+	font-family: 'Average', sans-serif;
+	font-size: 15px;
+}
+
+#grammar {
+	display: flex; 
+	font-family: 'Average', sans-serif;
+	font-size: 15px;
+}
+
+#allDictionary {
+	display: flex; 
+	font-family: 'Average', sans-serif;
+	font-size: 15px;
+}
+
+.blank {
+	flex: 10%;
+}
+
+.column {
+	flex: 80%;
+}
+
+li {
+	font-style: italic;
+	list-style-type: circle;
+	margin: 0 0 0 10px;
+}
+
+p1 {
+	font-family: 'Average', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+p2 {
+	font-family: 'Average', sans-serif;
+	font-size: 20px;
+}

@@ -1,28 +1,39 @@
 
-#main {
+#flexDisplay {
 	display: flex; 
-	font-family: 'Average', sans-serif;
-	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
-#grammar {
-	display: flex; 
-	font-family: 'Average', sans-serif;
-	font-size: 15px;
+td, th {
+	border: 1px solid #999;
+	padding: 0.2rem;
+	text-align: left;
 }
 
-#allDictionary {
-	display: flex; 
-	font-family: 'Average', sans-serif;
-	font-size: 15px;
+table {
+	border-collapse: collapse;
+	margin-bottom: 1rem;
 }
 
-.blank {
+.blank10 {
 	flex: 10%;
 }
 
+.blank15 {
+	flex: 15%;
+}
+
+.blank20 {
+	flex: 20%;
+}
+
+.blank25 {
+	flex: 25%;
+}
+
 .column {
-	flex: 80%;
+	flex: 100%;
 }
 
 li {
@@ -32,12 +43,14 @@ li {
 }
 
 p1 {
-	font-family: 'Average', sans-serif;
-	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 24px;
 	text-align: center;
 }
 
 p2 {
-	font-family: 'Average', sans-serif;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: bold;
 	font-size: 20px;
 }
